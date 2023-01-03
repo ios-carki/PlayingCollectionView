@@ -30,17 +30,6 @@ final class FlowLayoutViewController: UIViewController {
         mainView.comCollectionView.dataSource = self
         mainView.comCollectionView.delegate = self
     }
-    
-    //    private func diffableSetting() {
-    //        let cellRegi = UICollectionView.CellRegistration<FlowLayoutCell, CellData>.init { cell, indexPath, itemIdentifier in
-    //            cell.charNameLabel.text = i
-    //        }
-    //        /*
-    //         let cellRegistration = UICollectionView.CellRegistration<ListCollectionViewCell, Photo>.init { cell, indexPath, itemIdentifier in
-    //              cell.setData(itemIdentifier)
-    //          }
-    //         */
-    //    }
 }
 
 extension FlowLayoutViewController: UICollectionViewDelegate, UICollectionViewDataSource {
